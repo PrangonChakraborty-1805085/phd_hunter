@@ -35,7 +35,7 @@ SKILLS = [
 
 if __name__ == "__main__":
     port = config.professor_finder.port
-    url = f"http://{config.agent_host}:{port}"
+    url = f"{config.agent_url}/professor_finder"
 
     logger.info("=" * 50)
     logger.info("Professor Finder Agent starting...")

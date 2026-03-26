@@ -282,6 +282,7 @@ cp .env.example .env
 | `RESEARCH_MATCHER_PORT` | No | `10003` | |
 | `EMAIL_COMPOSER_PORT` | No | `10004` | |
 | `AGENT_HOST` | No | `localhost` | Change to `0.0.0.0` for Docker |
+| `AGENT_URL` | No | `http://localhost:8000` | Change to the actual agent URL for Docker |
 | `LOG_LEVEL` | No | `INFO` | `DEBUG` / `INFO` / `WARNING` |
 
 ---

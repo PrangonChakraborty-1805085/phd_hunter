@@ -39,7 +39,7 @@ SKILLS = [
 
 if __name__ == "__main__":
     port = config.ranking_agent.port
-    url = f"http://{config.agent_host}:{port}"
+    url = f"{config.agent_url}/ranking_agent"
 
     logger.info("=" * 50)
     logger.info("Ranking Agent starting...")

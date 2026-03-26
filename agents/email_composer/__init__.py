@@ -33,7 +33,7 @@ SKILLS = [
 
 def get_email_composer_agent():
     port = config.email_composer.port
-    url = f"http://{config.agent_host}:{port}/email_composer"
+    url = f"{config.agent_url}/email_composer"
 
     logger.info("=" * 50)
     logger.info("Email Composer Agent starting...")

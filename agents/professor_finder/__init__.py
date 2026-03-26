@@ -31,7 +31,7 @@ SKILLS = [
 
 def get_professor_finder_agent():
     port = config.professor_finder.port
-    url = f"http://{config.agent_host}:{port}/professor_finder"
+    url = f"{config.agent_url}/professor_finder"
 
     logger.info("=" * 50)
     logger.info("Professor Finder Agent starting...")

@@ -31,7 +31,7 @@ SKILLS = [
 
 def get_research_matcher_agent():
     port = config.research_matcher.port
-    url = f"http://{config.agent_host}:{port}/research_matcher"
+    url = f"{config.agent_url}/research_matcher"
 
     logger.info("=" * 50)
     logger.info("Research Matcher Agent starting...")

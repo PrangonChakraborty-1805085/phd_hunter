@@ -29,6 +29,7 @@ class AppConfig:
     gemini_model: str
     gemini_api_key: str
     agent_host: str
+    agent_url: str
     log_level: str
 
     # Individual agent configs
@@ -79,6 +80,7 @@ def load_config() -> AppConfig:
         raise EnvironmentError("LLM_PROVIDER is not set. Supported: openrouter, groq, ollama")
 
     host = os.getenv("AGENT_HOST", "localhost")
+    agent_url = os.getenv("AGENT_URL", f"http://{host}:8000")
 
     return AppConfig(
         llm_provider=llm_provider,
@@ -91,6 +93,7 @@ def load_config() -> AppConfig:
         gemini_model=gemini_model,
         gemini_api_key=gemini_api_key,
         agent_host=host,
+        agent_url=agent_url,
         log_level=os.getenv("LOG_LEVEL", "INFO"),
         ranking_agent=AgentConfig(
             host=host, port=int(os.getenv("RANKING_AGENT_PORT", "8000"))

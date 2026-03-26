@@ -36,7 +36,7 @@ SKILLS = [
 
 if __name__ == "__main__":
     port = config.email_composer.port
-    url = f"http://{config.agent_host}:{port}"
+    url = f"{config.agent_url}/email_composer"
 
     logger.info("=" * 50)
     logger.info("Email Composer Agent starting...")
