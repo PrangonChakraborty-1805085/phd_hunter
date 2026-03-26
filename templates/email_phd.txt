@@ -1,0 +1,21 @@
+Subject: Prospective {email_type} Student — {field} — {student_name}
+
+Dear {professor_title} {professor_last_name},
+
+I am writing to inquire about the possibility of joining your research group as a {email_type} student for {target_semester}. I am {student_name}, a {degree} graduate from {student_university} ({graduation_year}){cgpa_line}.
+
+I came across your work on {professor_recent_work}, particularly your paper "{suggested_paper}". {alignment_summary} This connection between your research directions and my background is what motivated me to reach out to you specifically.
+
+{relevant_experience_block}
+
+I am particularly interested in exploring {matching_topics} as part of my graduate studies. I believe your group's expertise in these areas would provide an ideal environment for my research growth.
+
+I have attached my CV for your review. I would be grateful for the opportunity to discuss any available positions in your group, and I am happy to provide additional materials such as transcripts, a research statement, or references at your request.
+
+Thank you sincerely for your time and consideration. I look forward to the possibility of contributing to your research.
+
+Respectfully,
+{student_name}
+{degree}
+{student_university}, {graduation_year}
+{student_email}

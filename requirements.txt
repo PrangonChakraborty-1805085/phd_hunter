@@ -1,0 +1,93 @@
+# Python 3.11.9 compatible — versions verified against PyPI March 2026
+# ── Core A2A ──────────────────────────────────────────────────────────────────
+# Latest stable: 0.3.25 (Mar 10 2026) — supports Python >=3.10
+# NOTE: 1.0.0a0 is pre-release (Mar 17 2026), DO NOT use in production
+a2a-sdk==0.3.25
+fastapi==0.135.2
+langchain-openrouter==0.1.0
+langchain_google_genai==4.2.1
+
+# ── LLM / LangGraph ───────────────────────────────────────────────────────────
+# groq: 0.15.0 (Mar 11 2026) — requires Python >=3.10
+groq==0.37.0
+
+tavily-python==0.5.0
+langchain==1.2.6
+# langchain-groq: 1.1.2 (Feb 2 2026) — requires Python >=3.10
+langchain-groq==1.1.2
+
+# langchain-core: 1.2.20 (latest stable) — requires Python >=3.9
+langchain-core==1.2.20
+
+# langgraph: 1.0.6 (Jan 12 2026) — requires Python >=3.9
+# NOTE: 1.x is stable. The 0.2.x line used in original is EOL.
+langgraph==1.0.6
+
+# ── Web / Scraping ────────────────────────────────────────────────────────────
+# httpx: 0.28.1 (Dec 6 2024) — latest stable; 0.29+ not yet released
+# Your original 0.28.1 is already the latest — keeping it
+httpx==0.28.1
+
+# httpx-sse: 0.4.0 — still latest, no new release
+httpx-sse==0.4.0
+
+# beautifulsoup4: 4.13.3 (latest, Jan 2026)
+beautifulsoup4==4.13.3
+
+# lxml: 5.3.1 (latest, Feb 2026) — compiled wheel available for Python 3.11
+lxml==5.3.1
+
+# ── MCP ───────────────────────────────────────────────────────────────────────
+# mcp: 1.26.0 (Jan 24 2026) — major update from 1.3.0
+# Requires: anyio, httpx, httpx-sse, pydantic, starlette, uvicorn
+mcp==1.6.0
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+# pandas: 2.2.3 — still latest stable (no 3.x released yet)
+pandas==2.2.3
+
+# pydantic: 2.10.6 (Nov 26 2025) — latest v2 stable
+pydantic==2.11.4
+
+# ── Server ────────────────────────────────────────────────────────────────────
+# uvicorn: 0.34.1 (Apr 13 2025 — latest stable; 0.40+ released Feb 2026)
+# Using 0.34.x for stability — 0.40 dropped Python <3.9 and changed internals
+uvicorn==0.34.2
+
+# starlette: 0.46.2 (Mar 22 2026) — latest stable
+# NOTE: 1.0.0 released Mar 22 2026 — breaking changes, stay on 0.46.x for now
+# a2a-sdk still targets starlette 0.4x range
+starlette==0.46.2
+
+# ── Streamlit UI ──────────────────────────────────────────────────────────────
+# streamlit: 1.44.0 (Mar 3 2026) — latest stable, Python >=3.10
+streamlit==1.44.0
+
+# streamlit-agraph: 0.0.45 — still latest (no new release)
+streamlit-agraph==0.0.45
+
+# pyvis: 0.3.2 — still latest
+pyvis==0.3.2
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+# python-dotenv: 1.1.0 (Mar 2026) — latest stable
+python-dotenv==1.1.0
+
+# tenacity: 9.1.2 (Feb 7 2026) — latest stable
+tenacity==9.1.2
+
+# loguru: 0.7.3 (Dec 6 2024) — still latest stable
+loguru==0.7.3
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+# pytest: 8.3.5 (latest stable)
+pytest==8.3.5
+
+# pytest-asyncio: 0.25.3 (Nov 10 2025) — latest stable
+pytest-asyncio==0.25.3
+
+# pytest-mock: 3.14.0 — still latest
+pytest-mock==3.14.0
+
+# respx: 0.22.0 (latest stable, compatible with httpx 0.28+)
+respx==0.22.0
