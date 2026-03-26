@@ -14,7 +14,7 @@ class AgentConfig:
 
     @property
     def base_url(self) -> str:
-        return f"http://{self.host}:{self.port}"
+        return f"{config.agent_url}"
 
 
 @dataclass(frozen=True)
